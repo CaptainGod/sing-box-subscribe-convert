@@ -116,7 +116,8 @@
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|临时|官网|订阅|污染|流量|套餐|机场|剩余|过期|时间|期|地址|防|污染|备用|🚧|有效"]}
+        {"action":"include","keywords":["🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇹🇼|TW|tw|台湾|台|🇺🇸|US|us|美国|美"]},
+        {"action":"exclude","keywords":["临时|官网|订阅|污染|流量|套餐|机场|剩余|过期|时间|期|地址|防|污染|备用|🚧|有效"]}
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -449,8 +450,12 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇸🇬|SG|sg|新加坡|狮|Singapore"]}
-      ],
+        {"action":"include","keywords":["🇸🇬|SG|sg|新加坡|狮|Singapore"]},
+        {"action": "exclude","keywords": ["临时|官网|订阅|污染|流量|套餐|机场|剩余|过期|时间|期|地址|防|污染|备用|🚧|有效"]}
+      ]
+
+
+
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
       "tolerance": 50
@@ -462,7 +467,8 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇯🇵|JP|jp|日本|日|Japan"]}
+        {"action":"include","keywords":["🇯🇵|JP|jp|日本|日|Japan"]},
+        {"action": "exclude","keywords": ["临时|官网|订阅|污染|流量|套餐|机场|剩余|过期|时间|期|地址|防|污染|备用|🚧|有效"]}
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -475,7 +481,8 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
+        {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]},
+        {"action": "exclude","keywords": ["临时|官网|订阅|污染|流量|套餐|机场|剩余|过期|时间|期|地址|防|污染|备用|🚧|有效"]}
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -488,7 +495,8 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"]}
+        {"action":"include","keywords":["🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"]},
+        {"action": "exclude","keywords": ["临时|官网|订阅|污染|流量|套餐|机场|剩余|过期|时间|期|地址|防|污染|备用|🚧|有效"]}
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -501,7 +509,8 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]}
+        {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]},
+        {"action": "exclude","keywords": ["临时|官网|订阅|污染|流量|套餐|机场|剩余|过期|时间|期|地址|防|污染|备用|🚧|有效"]}
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
